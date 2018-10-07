@@ -45,7 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIImage *normalImage;
 @property (nonatomic, strong) UIImage *__nullable highlightImage;
 
-- (instancetype)initWithNormal:(NSString *)normalImage
+- (instancetype)initWithNormal:(nonnull NSString *)normalImage
                      highlight:(nullable NSString *)highlightImage;
 
 @end
